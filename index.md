@@ -108,8 +108,10 @@ history, clone it or fork it.
    [Codeship](https://www.codeship.io/) and many others ...
 5. Package management [npm](https://www.npmjs.org/), [bower](http://bower.io/) ...
 
+<!--
 ## You can even shout this way
 {:.shout}
+-->
 
 ## Questions?
 
