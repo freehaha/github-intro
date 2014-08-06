@@ -90,7 +90,7 @@ Shower
 1. Watch/Star/Fork your favorate repositories
 1. Issue Tracker
 1. Wiki
-1. APIs
+1. [APIs](https://developer.github.com/v3/)
 
 ## Gists
 
@@ -105,7 +105,7 @@ history, clone it or fork it.
 2. Presentations [Jekyller](https://github.com/shower/jekyller)
 3. Writing books [GitBook](GitBook)
 4. Continuous Integration (CI) [Travis CI](https://travis-ci.org/),
-   [Codeship](https://www.codeship.io/) and many others ...
+   [Codeship](https://www.codeship.io/) and many others
 5. Package management [npm](https://www.npmjs.org/), [bower](http://bower.io/) ...
 
 <!--
