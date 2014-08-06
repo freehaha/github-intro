@@ -103,7 +103,7 @@ history, clone it or fork it.
 
 1. Blogging [Jekyll](http://jekyllrb.com/), [Octopress](http://octopress.org/)
 2. Presentations [Jekyller](https://github.com/shower/jekyller)
-3. Writing books [GitBook](GitBook)
+3. Writing books [GitBook](https://www.gitbook.io/)
 4. Continuous Integration (CI) [Travis CI](https://travis-ci.org/),
    [Codeship](https://www.codeship.io/) and many others
 5. Package management [npm](https://www.npmjs.org/), [bower](http://bower.io/) ...
