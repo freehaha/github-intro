@@ -91,6 +91,7 @@ Shower
 1. Issue Tracker
 1. Wiki
 1. [APIs](https://developer.github.com/v3/)
+1. [GitHub Pages](https://pages.github.com/)
 
 ## Gists
 
