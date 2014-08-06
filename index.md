@@ -51,6 +51,7 @@ style: |
 * Version Control System
 * Git
 * Github
+* Github API
 
 ## Version Control System (VCS) {#vcs}
 
@@ -99,6 +100,25 @@ Shower
 
 Like Pastebin, but backed by a Github repository, so you can track the change
 history, clone it or fork it.
+
+## Github API
+
+1. RESTful
+1. ...Authentication: **Basic Auth** or **OAuth2.0**
+1. ...Rate Limit: **60/h** unauthorized, **5000/h** authorized
+1. ...SSL(https) only
+
+## Example
+
+`curl https://api.github.com/users/freehaha/repos`
+
+	{
+		"full_name": "freehaha/freehaha.github.io",
+		"owner": { "login": "freehaha" },
+		"private": false
+		...
+	}
+
 
 ## What People Have Been Using Github For
 
