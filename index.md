@@ -56,7 +56,7 @@ style: |
 ## Version Control System (VCS) {#vcs}
 
 1. Code Management
-2. Project management
+2. Project Management
 
 ![](pictures/git-workflow.png)
 <!-- photo from atlassian http://blogs.atlassian.com/2013/04/git-flow-comes-to-java/ -->
@@ -66,13 +66,18 @@ style: |
 Shower 
 -->
 
-## Git
+## Code Management
 
-1. Distributed VCS
-2. Learn more:
-    - [Try Git](https://try.github.io)
-    - [Atlassian](https://www.atlassian.com/git/tutorial)
-    - [Git manual](http://git-scm.com/docs/gittutorial)
+1. ...Maintaining copies of code
+1. ...Reverting
+1. ...Comparing
+
+## Project Management
+
+1. ...Branching
+1. ...Merging
+1. ...Sending files
+1. ...Who did what (Who's to blame)
 
 ## Why do we need VCS
 
@@ -84,15 +89,67 @@ Shower
 <figcaption>Linus Torvalds</figcaption>
 </figure>
 
+## Modern VCS
+
+* Subversion (svn) - Apache
+* Bazaar (bzr) - Canonical
+* Mercurial (hg) - Matt Mackall
+* Git (git) - Linus Torvalds
+
+## Git
+
+1. Distributed VCS
+1. Compatibility with existing systems (git-svn git-hg, http, https)
+1. Open Source
+
+## Git (Cont.)
+* [Try Git](https://try.github.io)
+* [Atlassian](https://www.atlassian.com/git/tutorial)
+* [Git manual](http://git-scm.com/docs/gittutorial)
+
+## Basic Workflow
+
+* Repository
+* Commit
+* Branch
+* Merge
+
+## Basic Workflow - Initialization
+
+1. git init .
+
+## Basic Workflow - Commit
+
+1. git add files
+1. git commit
+
+## Basic Workflow - Push
+
+1. git push
+
+## Basic Workflow - Pull
+
+1. git pull (= git fetch + merge)
+
 ## Github
+
+Github is a service built on git, providing free hosting for projects and
+is one of the most popular hosting for open source projects.
+
+## Github - Features
 
 1. Code Repository
 1. Collaboration tools (pull requests, merging on-the-fly)
 1. Watch/Star/Fork your favorate repositories
-1. Issue Tracker
-1. Wiki
+1. Issue Tracker/Wiki
 1. [APIs](https://developer.github.com/v3/)
 1. [GitHub Pages](https://pages.github.com/)
+
+## Github Pages
+
+1. static hosting
+1. gh-pages branch
+1. jekyll
 
 ## Gists
 
@@ -123,7 +180,7 @@ history, clone it or fork it.
 ## What People Have Been Using Github For
 
 1. Blogging [Jekyll](http://jekyllrb.com/), [Octopress](http://octopress.org/)
-2. Presentations [Jekyller](https://github.com/shower/jekyller)
+2. Presentations [Jekyller](https://github.com/shower/jekyller), [hekyll](http://bmcmurray.github.com/hekyll)
 3. Writing books [GitBook](https://www.gitbook.io/)
 4. Continuous Integration (CI) [Travis CI](https://travis-ci.org/),
    [Codeship](https://www.codeship.io/) and many others
