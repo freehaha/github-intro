@@ -31,6 +31,16 @@ style: |
         height:0.72em;
         }
 
+    #code-management img {
+        width: 100%;
+        }
+
+    #project-management img {
+        position: relative;
+        top: -50px;
+        width: 90%;
+        }
+
     #vcs img {
            width: 50%;
         }
@@ -70,9 +80,11 @@ Shower
 <!--
 TODO: figure
 -->
-1. ...Maintaining versions of artifacts (code, documents...)
+1. ...Maintaining versions of artifacts - Commits (code, documents...)
 1. ...Reverting previous changes
 1. ...Comparing differences between versions
+
+![](pictures/commits-single.png)
 
 ## Project Management
 
@@ -80,6 +92,8 @@ TODO: figure
 1. ...Merging
 1. ...Synchronizing files
 1. ...Tracing
+
+![](pictures/commits-multi.png)
 
 ## Why do we need VCS
 
